@@ -59,8 +59,7 @@ void loop() {
   }
 
   Serial.println(timeClient.getFormattedTime());
-  timeClient = timeClient + 2;
-  Serial.println(timeClient.getFormattedTime());
+  Serial.println(timeClient.getFormattedTime()+2);
 
 
   /* ---------- SERVO LOOP ----------- */
